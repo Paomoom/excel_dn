@@ -1,0 +1,176 @@
+[
+  {
+    "id": "template-1747142553585",
+    "name": "a公司季度运维报告",
+    "description": "a公司季度运维报告",
+    "createdAt": 1747142553585,
+    "charts": [
+      {
+        "config": {
+          "type": "bar",
+          "title": "柱状图",
+          "xAxis": {
+            "field": "提出人",
+            "title": "序号"
+          },
+          "yAxis": {
+            "field": "提出人",
+            "title": "提出人"
+          },
+          "series": [
+            {
+              "field": "提出人",
+              "name": "提出人"
+            }
+          ],
+          "options": {
+            "showDataLabels": true,
+            "baseValue": 0,
+            "sortOrder": "none",
+            "countMode": true,
+            "sortBySeriesValue": false,
+            "colors": [
+              "#ff7c43",
+              "#ffa600",
+              "#7bdff2",
+              "#38b4d6",
+              "#007ed9"
+            ],
+            "barWidth": 47,
+            "borderRadius": 8,
+            "seriesOpacity": 0.85,
+            "bgColor": "#ffffff",
+            "borderColor": "#f0f0f0",
+            "fontFamily": "\"Microsoft YaHei\", Arial, sans-serif",
+            "titleColor": "#303030",
+            "axisColor": "#666666",
+            "labelColor": "#505050",
+            "legendColor": "#404040",
+            "colorTheme": "default"
+          }
+        },
+        "originalHeaders": [
+          "序号",
+          "提出人",
+          "提出时间",
+          "问题期间",
+          "来源",
+          "问题描述",
+          "解决方案",
+          "问题原因",
+          "问题类型",
+          "状态"
+        ],
+        "preAnalysis": "",
+        "postAnalysis": ""
+      },
+      {
+        "config": {
+          "type": "pie",
+          "title": "饼图",
+          "xAxis": {
+            "field": "问题类型",
+            "title": "序号"
+          },
+          "yAxis": {
+            "field": "提出人",
+            "title": "提出人"
+          },
+          "series": [
+            {
+              "field": "问题类型",
+              "name": "提出人"
+            }
+          ],
+          "options": {
+            "showDataLabels": true,
+            "baseValue": 0,
+            "sortOrder": "desc",
+            "countMode": true,
+            "sortBySeriesValue": true,
+            "colorTheme": "default",
+            "colors": [
+              "#a8d8ea",
+              "#aa96da",
+              "#fcbad3",
+              "#ffffd2",
+              "#a1de93"
+            ],
+            "seriesOpacity": 0.85,
+            "bgColor": "#ffffff",
+            "titleColor": "#555555",
+            "axisColor": "#666666",
+            "labelColor": "#555555",
+            "legendColor": "#555555",
+            "borderColor": "#f0f0f0",
+            "fontFamily": "\"Microsoft YaHei\", Arial, sans-serif",
+            "borderRadius": 4,
+            "borderWidth": 2,
+            "roseType": false,
+            "radius": [
+              "40%",
+              "70%"
+            ],
+            "pieBorderColor": "#ffffff",
+            "itemStyle": {}
+          }
+        },
+        "originalHeaders": [
+          "序号",
+          "提出人",
+          "提出时间",
+          "问题期间",
+          "来源",
+          "问题描述",
+          "解决方案",
+          "问题原因",
+          "问题类型",
+          "状态"
+        ],
+        "preAnalysis": "",
+        "postAnalysis": ""
+      },
+      {
+        "config": {
+          "type": "radar",
+          "title": "雷达图",
+          "xAxis": {
+            "field": "问题类型",
+            "title": "序号"
+          },
+          "yAxis": {
+            "field": "问题类型",
+            "title": "提出人"
+          },
+          "series": [
+            {
+              "field": "问题类型",
+              "name": "提出人"
+            }
+          ],
+          "options": {
+            "showDataLabels": false,
+            "baseValue": 0,
+            "sortOrder": "none",
+            "countMode": true,
+            "sortBySeriesValue": false
+          }
+        },
+        "originalHeaders": [
+          "序号",
+          "提出人",
+          "提出时间",
+          "问题期间",
+          "来源",
+          "问题描述",
+          "解决方案",
+          "问题原因",
+          "问题类型",
+          "状态"
+        ],
+        "preAnalysis": "",
+        "postAnalysis": ""
+      }
+    ]
+  }
+]

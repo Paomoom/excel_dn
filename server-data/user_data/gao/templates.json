@@ -1,0 +1,193 @@
+[
+  {
+    "id": "template-1747118449775",
+    "name": "gao的模版1 - 运维",
+    "description": "运维报告",
+    "createdAt": 1747118449775,
+    "charts": [
+      {
+        "config": {
+          "type": "pie",
+          "title": "饼图",
+          "xAxis": {
+            "field": "序号",
+            "title": "序号"
+          },
+          "yAxis": {
+            "field": "提出人",
+            "title": "提出人"
+          },
+          "series": [
+            {
+              "field": "提出人",
+              "name": "提出人"
+            }
+          ],
+          "options": {
+            "showDataLabels": true,
+            "baseValue": 0,
+            "sortOrder": "none",
+            "countMode": true,
+            "colors": [
+              "#a8d8ea",
+              "#aa96da",
+              "#fcbad3",
+              "#ffffd2",
+              "#a1de93"
+            ],
+            "seriesOpacity": 0.85,
+            "bgColor": "#ffffff",
+            "borderColor": "#f0f0f0",
+            "fontFamily": "\"Microsoft YaHei\", Arial, sans-serif",
+            "titleColor": "#555555",
+            "labelColor": "#555555",
+            "legendColor": "#555555",
+            "borderRadius": 4,
+            "borderWidth": 2,
+            "roseType": false,
+            "radius": [
+              "40%",
+              "70%"
+            ],
+            "pieBorderColor": "#ffffff",
+            "itemStyle": {}
+          }
+        },
+        "originalHeaders": [
+          "序号",
+          "提出人",
+          "提出时间",
+          "问题期间",
+          "来源",
+          "问题描述",
+          "解决方案",
+          "问题原因",
+          "问题类型",
+          "状态"
+        ],
+        "preAnalysis": "",
+        "postAnalysis": ""
+      },
+      {
+        "config": {
+          "type": "radar",
+          "title": "雷达图",
+          "xAxis": {
+            "field": "问题类型",
+            "title": "序号"
+          },
+          "yAxis": {
+            "field": "提出人",
+            "title": "提出人"
+          },
+          "series": [
+            {
+              "field": "提出人",
+              "name": "提出人"
+            }
+          ],
+          "options": {
+            "showDataLabels": false,
+            "baseValue": 0,
+            "sortOrder": "none",
+            "countMode": true,
+            "sortBySeriesValue": false,
+            "colors": [
+              "#000000",
+              "#444444",
+              "#666666"
+            ],
+            "seriesOpacity": 0.7,
+            "bgColor": "#fafafa",
+            "borderColor": "#eeeeee",
+            "fontFamily": "\"PingFang SC\", \"Helvetica Neue\", Arial, sans-serif",
+            "titleColor": "#333333",
+            "axisColor": "#777777",
+            "labelColor": "#777777",
+            "legendColor": "#333333",
+            "symbolSize": 3,
+            "areaStyle": true,
+            "areaOpacity": 0.4,
+            "lineWidth": 1.5
+          }
+        },
+        "originalHeaders": [
+          "序号",
+          "提出人",
+          "提出时间",
+          "问题期间",
+          "来源",
+          "问题描述",
+          "解决方案",
+          "问题原因",
+          "问题类型",
+          "状态"
+        ],
+        "preAnalysis": "",
+        "postAnalysis": ""
+      },
+      {
+        "config": {
+          "type": "bar",
+          "title": "柱状图",
+          "xAxis": {
+            "field": "提出人",
+            "title": "序号"
+          },
+          "yAxis": {
+            "field": "提出人",
+            "title": "提出人"
+          },
+          "series": [
+            {
+              "field": "提出人",
+              "name": "提出人"
+            }
+          ],
+          "options": {
+            "showDataLabels": true,
+            "baseValue": 0,
+            "sortOrder": "none",
+            "countMode": true,
+            "sortBySeriesValue": false,
+            "colors": [
+              "#55a4f3",
+              "#92ec86",
+              "#f7c967",
+              "#fc7a43",
+              "#df73ff"
+            ],
+            "barWidth": 75,
+            "borderRadius": 6,
+            "seriesOpacity": 0.85,
+            "bgColor": "#f7f7f7",
+            "borderColor": "#e5e5e5",
+            "fontFamily": "\"Microsoft YaHei\", Arial, sans-serif",
+            "titleColor": "#333333",
+            "axisColor": "#666666",
+            "labelColor": "#666666",
+            "legendColor": "#333333",
+            "shadowBlur": 10,
+            "shadowColor": "rgba(0, 0, 0, 0.2)",
+            "shadowOffsetX": 5,
+            "shadowOffsetY": 5
+          }
+        },
+        "originalHeaders": [
+          "序号",
+          "提出人",
+          "提出时间",
+          "问题期间",
+          "来源",
+          "问题描述",
+          "解决方案",
+          "问题原因",
+          "问题类型",
+          "状态"
+        ],
+        "preAnalysis": "",
+        "postAnalysis": ""
+      }
+    ]
+  }
+]
